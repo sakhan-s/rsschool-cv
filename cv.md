@@ -5,7 +5,7 @@
 
  [e-mail](mailto:siradzhov@ya.ru)
 
- [VK](https://vk.com/sakhann)
+ [vk](https://vk.com/sakhann)
 
  [Telegram](t.me/sakhan)
 
