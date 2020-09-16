@@ -1,0 +1,80 @@
+html {
+    max-width: 1024px;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    position: relative;
+    top: 15em;
+    left: 32em;
+    max-width: 15em;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 26.4px;
+    color: red;
+}
+
+img {
+    border: 4px solid white;
+    border-radius: 20em;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.about p {
+    font-family: Ubuntu;
+    font-size: 1.6em;
+    opacity: 0;
+    justify-content: center;
+    position: relative;
+    top: 22em;
+    color: white;
+    left: 51%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: Ubuntu;
+    font-size: 1.5em;
+    max-width: 20em;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue;
+}
+
+.about p:hover {
+    opacity: 1.1;
+}
+
+.links {
+    max-width: 10em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 49em;
+    top: 25em;
+}
+
+.links img {
+    height: 3em;
+}
+
+.links a:nth-child(1) {
+    position: relative;
+    left: 5em;
+}
+
+.links a:nth-child(2) {
+    position: relative;
+    left: 6em;
+}
+
+.links a:nth-child(3) {
+    position: relative;
+    left: 7em;
+}
