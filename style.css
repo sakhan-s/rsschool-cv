@@ -9,23 +9,32 @@ body {
 .profile-photo {
     height: 20%;
     width: 15%;
-    border-radius: 90%;
+    border-radius: 10%;
 }
 
 .profile-photo:hover {
     height: fit-content;
-    border-radius: 25%;
-    transition: 2s;
+    border-radius: 55%;
+    transition: 1s;
 }
 
 .my-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 10%;
 }
 
-.my-links a:hover{
-    padding-left: 1em;
-    transition: 1s;
+.my-links img {
+    background:aliceblue;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.my-links img:hover{
+    text-shadow: 1px 1px 2px rgb(247, 247, 247), 0 0 1em blue, 0 0 0.2em rgb(28, 28, 221);
+    transform: rotate(360deg);    
+    transition: 2s;
 }
 
 a {
